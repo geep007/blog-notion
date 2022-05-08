@@ -6,6 +6,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   images: {
+    loader: 'imgix',
+    path: '',
     domains: ['pbs.twimg.com']
   }
 })
